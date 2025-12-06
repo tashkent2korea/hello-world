@@ -43,3 +43,18 @@ This is my first GitHub project as I prepare for the **2+2 study program in Kore
 4. **Korean Language Practice**: Basic vocabulary display
 
 ## 📁 Project Structure
+
+# 🇺🇿→🇰🇷 Hello World Project
+
+## 🎯 Project Purpose
+This project marks the beginning of my journey to study Computer Science in Korea through a 2+2 program. It serves as my first Python project and GitHub portfolio piece.
+
+## 📁 Files
+- `main.py` - Main Python program with Korea 2+2 features
+- `README.md` - Project documentation (this file)
+- `requirements.txt` - Python dependencies
+- `.gitignore` - Files excluded from version control
+
+## 🚀 How to Run
+```bash
+python main.py
