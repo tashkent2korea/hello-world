@@ -1,3 +1,74 @@
 print("Hello from Uzbekistan!")
 print("Future Korea student")
 print("Learning GitHub")
+print("Test commit - Korea 2+2")
+# ========== YANGI KOD ==========
+def test_function():
+    print("Bu mening birinchi funktsiyam!")
+    print("GitHubda kod yozyapman")
+    print("Koreyaga tayyorgarlik")
+
+# Funktsiyani chaqirish
+test_function()
+# 한국어 연습 (Korean practice)
+print("\n🇰🇷 한국어 연습:")
+print("안녕하세요 - Hello")
+print("감사합니다 - Thank you")
+print("컴퓨터 과학 - Computer Science")
+print("프로그래밍 - Programming")
+# ====================================
+# YANGI KOD: KOREA 2+2 TAYYORGARLIK
+# ====================================
+
+def korea_preparation():
+    """Koreyaga tayyorgarlik dasturi"""
+    print("\n" + "="*50)
+    print("🇰🇷 KOREA 2+2 PREPARATION PROGRAM")
+    print("="*50)
+    
+    # Ma'lumotlar
+    name = "tashkent2korea"
+    country = "Uzbekistan"
+    goal = "Study Computer Science in Korea"
+    
+    print(f"\n👤 Name: {name}")
+    print(f"🌍 Country: {country}")
+    print(f"🎯 Goal: {goal}")
+    
+    # Vazifalar
+    print("\n📋 Tasks to complete:")
+    tasks = [
+        "1. Learn Python programming",
+        "2. Master GitHub",
+        "3. Study Korean language",
+        "4. Build portfolio",
+        "5. Apply for universities"
+    ]
+    
+    for task in tasks:
+        print(f"   {task}")
+    
+    # Progress
+    print("\n📊 Current progress:")
+    print("   ✅ GitHub account created")
+    print("   ✅ First repository made")
+    print("   ✅ Profile README created")
+    print("   🔲 Learning Python daily")
+    print("   🔲 Korean language study")
+    
+    print("\n" + "="*50)
+    print("🚀 Keep going! Every day progress!")
+    print("="*50)
+
+# ====================================
+# ASOSIY DASTURNI YANGILASH
+# ====================================
+
+if __name__ == "__main__":
+    # Avvalgi kod (o'chirmang!)
+    print("Hello from Uzbekistan!")
+    print("Future Korea student")
+    print("Learning GitHub")
+    
+    # Yangi funktsiyani chaqirish
+    korea_preparation()
