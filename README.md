@@ -27,3 +27,19 @@ This is my **first GitHub project**! I'm learning programming to prepare for 2+2
 ## 💻 How to Run This Project
 ```bash
 python main.py
+## 🚀 Project Overview
+This is my first GitHub project as I prepare for the **2+2 study program in Korea**. The project demonstrates my Python programming skills and commitment to learning Computer Science.
+
+## 🎯 Purpose
+- Learn Python programming fundamentals
+- Practice GitHub workflow and version control
+- Build a portfolio for Korean university applications
+- Prepare for Computer Science studies in Korea
+
+## 💻 Features
+1. **Basic Python Functions**: Print statements, user input, loops
+2. **Korea 2+2 Program**: Custom function for study planning
+3. **Progress Tracking**: Task list and completion status
+4. **Korean Language Practice**: Basic vocabulary display
+
+## 📁 Project Structure
