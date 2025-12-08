@@ -112,9 +112,14 @@ else:
     print("Quyidagilarni yaxshilang:")
     if not (17 <= age <= 25):
         print("- Yosh chegarasiga mos kelishingiz kerak")
+
     if gpa < 80:
         print("- GPA ni 80+ qilishingiz kerak")
     if korean_level.upper() not in ["A2", "B1", "B2"]:
         print("- Koreys tilini A2 darajasigacha o'rganing")
 
 print("="*40)
+
+print("Mening birinchi Python kodim")
+print("Koreyaga borishni xohlayman")
+print("Python o'rganyapman")
