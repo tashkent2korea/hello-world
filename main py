@@ -72,3 +72,49 @@ if __name__ == "__main__":
     
     # Yangi funktsiyani chaqirish
     korea_preparation()
+print("=== KOREA 2+2 ELIGIBILITY CHECKER ===")
+
+# Foydalanuvchidan ma'lumot olish
+name = input("Ismingizni kiriting: ")
+age = int(input("Yoshingizni kiriting: "))
+gpa = float(input("GPA (0-100): "))
+korean_level = input("Koreys tili darajangiz (A1/A2/B1/B2): ")
+
+print("\n" + "="*40)
+print("NATIJALAR:")
+print("="*40)
+
+# Age check
+if 17 <= age <= 25:
+    print(f"✅ Yosh: {age} - Mos")
+else:
+    print(f"❌ Yosh: {age} - Mos emas")
+
+# GPA check  
+if gpa >= 80:
+    print(f"✅ GPA: {gpa} - Yaxshi")
+else:
+    print(f"❌ GPA: {gpa} - Yaxshilash kerak")
+
+# Korean check
+if korean_level.upper() in ["A2", "B1", "B2"]:
+    print(f"✅ Koreys tili: {korean_level} - Yetarli")
+else:
+    print(f"❌ Koreys tili: {korean_level} - O'rganish kerak")
+
+# Final decision
+print("\n" + "="*40)
+if (17 <= age <= 25) and (gpa >= 80) and (korean_level.upper() in ["A2", "B1", "B2"]):
+    print(f"🎉 TABRIKLAYMAN {name}!")
+    print("Siz Korea 2+2 dasturiga ariza bera olasiz!")
+else:
+    print(f"💪 {name}, ishlashingiz kerak!")
+    print("Quyidagilarni yaxshilang:")
+    if not (17 <= age <= 25):
+        print("- Yosh chegarasiga mos kelishingiz kerak")
+    if gpa < 80:
+        print("- GPA ni 80+ qilishingiz kerak")
+    if korean_level.upper() not in ["A2", "B1", "B2"]:
+        print("- Koreys tilini A2 darajasigacha o'rganing")
+
+print("="*40)
