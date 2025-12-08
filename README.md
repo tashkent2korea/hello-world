@@ -58,3 +58,10 @@ This project marks the beginning of my journey to study Computer Science in Kore
 ## 🚀 How to Run
 ```bash
 python main.py
+
+## 🎉 Recent Achievements
+- Wrote my first personal Python code
+- Learned GitHub commit workflow
+- Built a functional Python program
+- Preparing daily for Korea 2+2 program
+- Maintaining active GitHub portfolio
